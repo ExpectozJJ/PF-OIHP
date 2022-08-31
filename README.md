@@ -8,7 +8,7 @@ This manual contains the models implemented in the paper "Topological Feature En
         
 # Pipeline of PF-GBT Models
 ---
-
+![flowchart](https://user-images.githubusercontent.com/32187437/187708602-27ee23d5-70a4-41e2-a518-0663df03ab0b.png)
 
 # Feature Generation
 
