@@ -25,9 +25,9 @@ def _PBN(betti, gridsize, f):
 def PBN(X, sym):
     MAPbX3_sym_CNPbXBetti = dict()
     for i in range(1, 1001):
-        file0 = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_ClassificationTest/MAPbX_Classification_CNPbX/PH_OUT_MAPb"+X+"3_"+sym+"_CNPbX/Gudhi_"+sym+"_CNXPb_L5_f"+str(i)+"_b0.txt")
-        file1 = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_ClassificationTest/MAPbX_Classification_CNPbX/PH_OUT_MAPb"+X+"3_"+sym+"_CNPbX/Gudhi_"+sym+"_CNXPb_L5_f"+str(i)+"_b1.txt")
-        file2 = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_ClassificationTest/MAPbX_Classification_CNPbX/PH_OUT_MAPb"+X+"3_"+sym+"_CNPbX/Gudhi_"+sym+"_CNXPb_L5_f"+str(i)+"_b2.txt")
+        file0 = open("./PH_OUT_MAPb"+X+"3_"+sym+"_CNPbX/Gudhi_"+sym+"_CNXPb_L5_f"+str(i)+"_b0.txt")
+        file1 = open("./PH_OUT_MAPb"+X+"3_"+sym+"_CNPbX/Gudhi_"+sym+"_CNXPb_L5_f"+str(i)+"_b1.txt")
+        file2 = open("./PH_OUT_MAPb"+X+"3_"+sym+"_CNPbX/Gudhi_"+sym+"_CNXPb_L5_f"+str(i)+"_b2.txt")
         contents0 = file0.readlines()
         contents1 = file1.readlines()
         contents2 = file2.readlines()
@@ -63,7 +63,7 @@ MAPbCl3_Tetra_CNPbXdata = dict()
 MAPbI3_Tetra_CNPbXdata = dict()
 
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbBr3/ElemSpecificGroup_CNPbX/MAPbBr3_Cubic_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
@@ -72,7 +72,7 @@ for i in range(1, 1001):
     
 
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbCl3/ElemSpecificGroup_CNPbX/MAPbCl3_Cubic_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
@@ -80,7 +80,7 @@ for i in range(1, 1001):
     MAPbCl3_Cubic_CNPbXdata[i] = temp
     
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbI3/ElemSpecificGroup_CNPbX/MAPbI3_Cubic_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
@@ -88,7 +88,7 @@ for i in range(1, 1001):
     MAPbI3_Cubic_CNPbXdata[i] = temp
     
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbBr3/ElemSpecificGroup_CNPbX/MAPbBr3_Orthorhombic_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
@@ -96,7 +96,7 @@ for i in range(1, 1001):
     MAPbBr3_Ortho_CNPbXdata[i] = temp
     
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbCl3/ElemSpecificGroup_CNPbX/MAPbCl3_Orthorhombic_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
@@ -104,7 +104,7 @@ for i in range(1, 1001):
     MAPbCl3_Ortho_CNPbXdata[i] = temp
     
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbI3/ElemSpecificGroup_CNPbX/MAPbI3_Orthorhombic_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
@@ -112,7 +112,7 @@ for i in range(1, 1001):
     MAPbI3_Ortho_CNPbXdata[i] = temp
     
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbBr3/ElemSpecificGroup_CNPbX/MAPbBr3_Tetragonal_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
@@ -120,7 +120,7 @@ for i in range(1, 1001):
     MAPbBr3_Tetra_CNPbXdata[i] = temp
     
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbCl3/ElemSpecificGroup_CNPbX/MAPbCl3_Tetragonal_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
@@ -128,7 +128,7 @@ for i in range(1, 1001):
     MAPbCl3_Tetra_CNPbXdata[i] = temp
     
 for i in range(1, 1001):
-    file = open("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Gudhi_PointCloud/MAPbX_ClassificationProblem/MAPbX3_PHinput_data/MAPbI3/ElemSpecificGroup_CNPbX/MAPbI3_Tetragonal_CNPbXdata/CNXPb_atmlist_L5_f"+str(i)+".txt")
+    file = open("/CNXPb_atmlist_L5_f"+str(i)+".txt")
     contents = file.readlines()
     temp = []
     for j in range(len(contents)):
