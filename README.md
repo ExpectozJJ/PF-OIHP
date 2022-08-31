@@ -1,5 +1,5 @@
 # PF-OHIP
-This manual contains the models implemented in the paper "Topological Feature Engineering for Machine Learning Based Halide Perovskite Materials Design".
+This manual contains the models implemented in the paper "D. Vijay Anand, Qiang Xu, JunJie Wee, Kelin Xia, Tze Chien Sum. Topological Feature Engineering for Machine Learning Based Halide Perovskite Materials Design. npj Computational Materials. (2022). (to appear)".
 
 # Code Requirements
 ---
