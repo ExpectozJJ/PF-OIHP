@@ -50,7 +50,7 @@ def convertpdb(filename):
     a = {'PRO': [{'atom': atomName, 'typ': element, 'pos': np.transpose([X,Y,Z])}]}
     np.savez(filename[:-4]+".npz", **a)
 
-os.chdir("/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Perovskite_2021/New Data/new_v3/")
+os.chdir("/Data/")
 
 filenames = []
 for file in glob.glob("*.pdb"): # Getting all the pdb files of supercell
