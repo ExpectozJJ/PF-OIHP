@@ -8,3 +8,5 @@ This manual contains the models implemented in the paper "Topological Feature En
 
 ## Cite
 If you use this code in your research, please considering cite our paper:
+
+*  D. Vijay Anand, Qiang Xu, JunJie Wee, Kelin Xia, Tze Chien Sum. Topological Feature Engineering for Machine Learning Based Halide Perovskite Materials Design. <span style="font-style: italic;">npj Computational Materials</span>. (2022). (to appear)
