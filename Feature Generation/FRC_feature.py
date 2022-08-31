@@ -38,14 +38,7 @@ def compute_stat(dist): # Compute Statistical Features with input FRC distributi
 
     return feat
 
-#path = '/mnt/c/Users/wee_j/Documents/PhD Research/PhD Codes/Vijai_Perovskite_2021/10-foldCV_PH/HOIP_FRC_Data/HOIP_FRC_Data/FRC_ML_Predictions'
-#X = loadtxt(path+"/ASorted_HOIP_FRC_bg.txt", comments="#", delimiter=",", unpack=False)
-#y = loadtxt(path+"/ASorted_HOIP_bg.txt", comments="#", delimiter=",", unpack=False)
-
-#clf = ensemble.GradientBoostingRegressor(**params)
-#clf.fit(X, y)
-
-os.chdir("./sc_crel_structures/")
+os.chdir("./structures/")
 
 filenames = []
 idx = []
