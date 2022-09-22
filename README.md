@@ -1,5 +1,5 @@
 # PF-OHIP
-This manual contains the models implemented in the paper "D. Vijay Anand, Qiang Xu, JunJie Wee, Kelin Xia, Tze Chien Sum. Topological Feature Engineering for Machine Learning Based Halide Perovskite Materials Design. npj Computational Materials. (2022). (to appear)".
+This manual contains the models implemented in the paper "D. Vijay Anand, Qiang Xu, JunJie Wee, Kelin Xia, Tze Chien Sum. Topological Feature Engineering for Machine Learning Based Halide Perovskite Materials Design. npj Computational Materials. 8, 203. (2022).".
 
 # Code Requirements
 ---
@@ -60,4 +60,4 @@ Here, we provide the codes for the bandgap prediction of the OIHP structures.
 ## Cite
 If you use this code in your research, please considering cite our paper:
 
-*  D. Vijay Anand, Qiang Xu, JunJie Wee, Kelin Xia, Tze Chien Sum. Topological Feature Engineering for Machine Learning Based Halide Perovskite Materials Design. npj Computational Materials. (2022). (to appear)
+*  D. Vijay Anand, Qiang Xu, JunJie Wee, Kelin Xia, Tze Chien Sum. Topological Feature Engineering for Machine Learning Based Halide Perovskite Materials Design. npj Computational Materials. 8, 203. (2022).
